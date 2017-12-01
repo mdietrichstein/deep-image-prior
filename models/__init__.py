@@ -1,8 +1,8 @@
-from skip import skip
-from texture_nets import get_texture_nets
-from resnet import ResNet
+from .skip import skip
+from .texture_nets import get_texture_nets
+from .resnet import ResNet
 # from model_pad_ds import Net
-from unet import UNet
+from .unet import UNet
 
 import torch.nn as nn
 

@@ -1,6 +1,6 @@
 import torch
 import torch.nn as nn
-from downsampler import Downsampler
+from .downsampler import Downsampler
 
 def add_module(self, module):
     self.add_module(str(len(self) + 1), module)

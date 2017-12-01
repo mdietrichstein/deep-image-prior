@@ -1,6 +1,6 @@
 import cv2
 import os
-from common_utils import *
+from .common_utils import *
 import shutil
 import tempfile
 from contextlib import contextmanager
